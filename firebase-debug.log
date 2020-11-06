@@ -1,0 +1,43 @@
+[debug] [2020-11-06T09:00:56.467Z] ----------------------------------------------------------------------
+[debug] [2020-11-06T09:00:56.468Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\anass\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-11-06T09:00:56.469Z] CLI Version:   8.15.1
+[debug] [2020-11-06T09:00:56.469Z] Platform:      win32
+[debug] [2020-11-06T09:00:56.469Z] Node Version:  v14.15.0
+[debug] [2020-11-06T09:00:56.469Z] Time:          Fri Nov 06 2020 10:00:56 GMT+0100 (heure normale d’Europe centrale)
+[debug] [2020-11-06T09:00:56.470Z] ----------------------------------------------------------------------
+[debug] [2020-11-06T09:00:56.470Z] 
+[debug] [2020-11-06T09:00:56.474Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-06T09:00:56.474Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Ynov\MAJ_Dev_Mobile\songplaylist
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-11-06T09:01:09.203Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-11-06T09:01:09.658Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 06 Nov 2020 09:01:09 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  Using project songplaylist-92e73 (songplaylist) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
